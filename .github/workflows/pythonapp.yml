@@ -18,3 +18,9 @@ jobs:
     - name: Run scrapper
       run: |
         python scrapper.py
+    - name: Commit 
+      run: |
+        git add *
+        git commit -m "Update data"
+        git push
+
