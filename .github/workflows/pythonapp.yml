@@ -23,6 +23,8 @@ jobs:
         python scrapper.py
     - name: Commit 
       run: |
+        git config --global user.email "chrsep@protonmail.com"
+        git config --global user.name "Chrisando Pramudhita"
         git add *
         git commit -m "Update data"
         git push
