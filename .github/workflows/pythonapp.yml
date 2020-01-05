@@ -27,5 +27,6 @@ jobs:
         git config --global user.name "Chrisando Pramudhita"
         git add *
         git commit -m "Update data"
+        git push origin HEAD:master
         git push
 
