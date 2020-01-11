@@ -1,4 +1,5 @@
 import json
+from datetime import date
 from time import sleep
 from urllib.request import Request, urlopen
 
@@ -13,9 +14,13 @@ while 1==1:
         break
     all_games += parsed_data
     page = page + 1
+    sleep(0.5)
 
 
-filename = 'allgames.json'
+today = date.today()
+d3 = today.strftime("%m-%d-%y")
+print("d3 =", d3)
+filename = './data/'+ d3 +'.json'
 myfile = open(filename, 'a')
 myfile.write(json.dumps(all_games, indent=4, sort_keys=True))
 myfile.close()

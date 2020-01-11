@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "70990fa8eed0e40766a12eaf18cde5f8bf1dc3691c00b50fef09a92f4b9dc7da"
+            "sha256": "7b10e4e6e14af320e9e7aaee8a10b034d26398f2c3a0c6c710272d69539f9fcd"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,12 +32,28 @@
             "index": "pypi",
             "version": "==0.7.11"
         },
+        "prettytable": {
+            "hashes": [
+                "sha256:2d5460dc9db74a32bcc8f9f67de68b2c4f4d2f01fa3bd518764c69156d9cacd9",
+                "sha256:606ead6885e089d123d6c002347a08f27404be50ee1baae3d507ab94b4b4acd0",
+                "sha256:853c116513625c738dc3ce1aee148b5b5757a86727e67eff6502c7ca59d43c36",
+                "sha256:a53da3b43d7a5c229b5e3ca2892ef982c46b7923b51e98f0db49956531211c4f"
+            ],
+            "version": "==0.7.2"
+        },
         "soupsieve": {
             "hashes": [
                 "sha256:bdb0d917b03a1369ce964056fc195cfdff8819c40de04695a80bc813c3cfa1f5",
                 "sha256:e2c1c5dee4a1c36bcb790e0fabd5492d874b8ebd4617622c4f6a731701060dda"
             ],
             "version": "==1.9.5"
+        },
+        "today": {
+            "hashes": [
+                "sha256:343280bf582e56903c58a5c47b39c72e973a4e5126a4ba54ea9b4f304f54d6c6"
+            ],
+            "index": "pypi",
+            "version": "==0.2"
         }
     },
     "develop": {}
